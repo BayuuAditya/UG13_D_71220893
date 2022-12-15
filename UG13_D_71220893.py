@@ -1,7 +1,7 @@
 import turtle
 
 b = turtle.Turtle()
-b.bgcolor("purple")
+
 b.penup()
 b.goto(-150,0)
 b.pendown()
