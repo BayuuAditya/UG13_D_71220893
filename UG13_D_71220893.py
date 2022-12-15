@@ -1,6 +1,7 @@
 import turtle
 
 b = turtle.Turtle()
+b.bgcolor("purple")
 b.penup()
 b.goto(-150,0)
 b.pendown()
@@ -24,7 +25,7 @@ for x in range(120):
     b.right(1)
 
 b.penup()
-b.goto(100,0)
+b.goto(0,240)
 b.pendown()
 b.right(180)
 b.forward(0)
@@ -32,7 +33,7 @@ for x in range(250):
     b.forward(1)
     b.left(1)
 b.left(50)
-b.forward(175)
+b.forward(155)
 b.right
 for x in range(300):
     b.forward(1)
